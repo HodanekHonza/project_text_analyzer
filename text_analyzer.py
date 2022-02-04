@@ -379,6 +379,7 @@ user_input_for_choosing_text = input("Now you can choose from the texts number 1
 
 
 if user_input_for_choosing_text == "1":
+    print(separatorr)
     print(f"There are {all_words_number_1_count} words in the text")
     print(f"There are {first_capital_words_number_1} words starting with capital letter")
     print(f"There are {capital_words_number_1} words written in all capital letters")
@@ -386,12 +387,14 @@ if user_input_for_choosing_text == "1":
     print(f"There are {numbers_words_number_1} numbers in the text")
     print(f"The Sum of all numbers in the text is {sum_num_1}")
     #print(f"Top 5 words {results_1}")
+    print(separatorr)
     for index, wordnumber in enumerate(sorted(results_1, reverse=True), 1):
         print(separatorr,
               f"|{index}.|{wordnumber[1]:^12}|{wordnumber[0]}x|",
               sep="\n")
 
 if user_input_for_choosing_text == "2":
+    print(separatorr)
     print(f"There are {all_words_number_2_count} words in the text")
     print(f"There are {first_capital_words_number_2} words starting with capital letter")
     print(f"There are {capital_words_number_2} words written in all capital letters")
@@ -399,18 +402,21 @@ if user_input_for_choosing_text == "2":
     print(f"There are {numbers_words_number_2} numbers in the text")
     print(f"The Sum of all numbers in the text is {sum_num_2}")
     #print(f"Top 5 words {results_1}")
+    print(separatorr)
     for index, wordnumber in enumerate(sorted(results_2, reverse=True), 1):
         print(separatorr,
               f"|{index}.|{wordnumber[1]:^12}|{wordnumber[0]}x|",
               sep="\n")
 
 if user_input_for_choosing_text == "3":
+    print(separatorr)
     print(f"There are {all_words_number_3_count} words in the text")
     print(f"There are {first_capital_words_number_3} words starting with capital letter")
     print(f"There are {capital_words_number_3} words written in all capital letters")
     print(f"There are {small_words_number_3} words written in all small letters")
     print(f"There are {numbers_words_number_3} numbers in the text")
     print(f"The Sum of all numbers in the text is {sum_num_3}")
+    print(separatorr)
     #print(f"Top 5 words {results_3}")
     for index, wordnumber in enumerate(sorted(results_3, reverse=True), 1):
         print(separatorr,
